@@ -34,22 +34,22 @@
 
 ### 오디오 — Suno 생성 mp3 (6)
 
-- [x] `Apricot Hammer.mp3` — warm piano instrumental → **5.1 Instrumental 레시피**
-- [x] `봄빛처럼 번져.mp3` — 한국어 K-Pop 발라드, 봄 산책 → **5.2 한국어 발라드 레시피**
-- [x] `토요일의_고요함.mp3` — warm acoustic, 주말 아침 → **5.5 인디 어쿠스틱 + Persona 데모 (원본)**
-- [x] `도시의_심장.mp3` — 같은 보컬, 90년대 한국 댄스 → **Persona 데모 (변형)**
-- [x] `젖은 오후.mp3` — ambient dream pop ballad → **보너스 레시피 + Cover 원본**
-- [x] `젖은 오후 x Apricot Hammer (Mashup).mp3` — Cover/Mashup → **Cover 데모 (after)**
-- [x] `토닥토닥 기다림.mp3` — kids pop lullaby, 72 BPM → **보너스 레시피**
-- [x] `오디오를 키워.mp3` — 메타적 마무리 → **엔딩 슬라이드 BGM**
+- [x] `apricot-hammer.mp3` — warm piano instrumental → **5.1 Instrumental 레시피**
+- [x] `spring-light-spreads.mp3` — 한국어 K-Pop 발라드, 봄 산책 → **5.2 한국어 발라드 레시피**
+- [x] `saturday-stillness.mp3` — warm acoustic, 주말 아침 → **5.5 인디 어쿠스틱 + Persona 데모 (원본)**
+- [x] `city-heart.mp3` — 같은 보컬, 90년대 한국 댄스 → **Persona 데모 (변형)**
+- [x] `wet-afternoon.mp3` — ambient dream pop ballad → **보너스 레시피 + Cover 원본**
+- [x] `wet-afternoon-x-apricot-hammer-mashup.mp3` — Cover/Mashup → **Cover 데모 (after)**
+- [x] `patpat-waiting.mp3` — kids pop lullaby, 72 BPM → **보너스 레시피**
+- [x] `turn-up-the-audio.mp3` — 메타적 마무리 → **엔딩 슬라이드 BGM**
 - [x] `3.3-gemini-spring-walk.mp3` — Gemini Fast 30초 → **3.3 Gemini 맛보기**
 
 ### 비디오 — Gemini Lyria 생성 mp4 (앨범커버 + 오디오)
 
-- [x] `광속의_호기심.mp3 / .mp4` — Gemini, "AI 학습자를 위한 경쾌한 곡" → **cover BGM + 오프닝 영상**
-- [x] `우리의_새로운_청사진.mp3 / .mp4` — Gemini, 영감·차분 → **마무리 직전 영상**
-- [x] `Nine_AM_Window_Seat.mp4` — Gemini, 어쿠스틱 모닝 → **3.3 Gemini 결과 시연**
-- [x] `Table_by_the_Window.mp4` — Gemini, 카페 로파이 → **3.3 Gemini 결과 시연**
+- [x] `speed-of-light-curiosity.mp3 / .mp4` — Gemini, "AI 학습자를 위한 경쾌한 곡" → **cover BGM + 오프닝 영상**
+- [x] `our-new-blueprint.mp3 / .mp4` — Gemini, 영감·차분 → **마무리 직전 영상**
+- [x] `nine-am-window-seat.mp4` — Gemini, 어쿠스틱 모닝 → **3.3 Gemini 결과 시연**
+- [x] `table-by-the-window.mp4` — Gemini, 카페 로파이 → **3.3 Gemini 결과 시연**
 
 ---
 
@@ -263,31 +263,31 @@ bun run dev
 
 | 파일 | 생성 프롬프트 | 매핑 슬라이드 |
 |---|---|---|
-| `Apricot Hammer.mp3` | `warm piano instrumental, spring walk, gentle and bright, background music` | 5.1 Instrumental 레시피 |
-| `봄빛처럼 번져.mp3` | `Korean K-Pop, acoustic, gentle and bright, spring walk, warm, calm vocal, slow-tempo` + 한국어 가사 4줄 | 5.2 한국어 K-Pop 발라드 |
-| `토요일의_고요함.mp3` | "따뜻한 어쿠스틱 기타 인트로, 햇살 가득한 주말 아침" | 5.5 인디 어쿠스틱 + 보너스 1 (Persona 원본) |
-| `도시의_심장.mp3` | 토요일의 고요함과 같은 보컬, 다른 가사. 90년대 한국 댄스, 피아노, 빠른 템포 | 보너스 1 (Persona 변형) |
-| `젖은 오후.mp3` | `ambient dream pop ballad, meditative, slow tempo, floating synth, distant guitar, breathy vocal, melancholy but comforting` | 보너스 2 (드림 팝) + Cover 원본 |
-| `젖은 오후 x Apricot Hammer (Mashup).mp3` | 두 곡 매시업 | 7-1 Cover 데모 (after) |
-| `토닥토닥 기다림.mp3` | `Kids pop lullaby, 72 BPM, soft acoustic guitar, glockenspiel, hand claps, childlike vocal` | 보너스 2 (자장가) |
-| `오디오를 키워.mp3` | "AI 음악 생성을 공부하는 학생들" 메타 안내문 | 마지막 end 슬라이드 BGM (autoplay) |
+| `apricot-hammer.mp3` | `warm piano instrumental, spring walk, gentle and bright, background music` | 5.1 Instrumental 레시피 |
+| `spring-light-spreads.mp3` | `Korean K-Pop, acoustic, gentle and bright, spring walk, warm, calm vocal, slow-tempo` + 한국어 가사 4줄 | 5.2 한국어 K-Pop 발라드 |
+| `saturday-stillness.mp3` | "따뜻한 어쿠스틱 기타 인트로, 햇살 가득한 주말 아침" | 5.5 인디 어쿠스틱 + 보너스 1 (Persona 원본) |
+| `city-heart.mp3` | 토요일의 고요함과 같은 보컬, 다른 가사. 90년대 한국 댄스, 피아노, 빠른 템포 | 보너스 1 (Persona 변형) |
+| `wet-afternoon.mp3` | `ambient dream pop ballad, meditative, slow tempo, floating synth, distant guitar, breathy vocal, melancholy but comforting` | 보너스 2 (드림 팝) + Cover 원본 |
+| `wet-afternoon-x-apricot-hammer-mashup.mp3` | 두 곡 매시업 | 7-1 Cover 데모 (after) |
+| `patpat-waiting.mp3` | `Kids pop lullaby, 72 BPM, soft acoustic guitar, glockenspiel, hand claps, childlike vocal` | 보너스 2 (자장가) |
+| `turn-up-the-audio.mp3` | "AI 음악 생성을 공부하는 학생들" 메타 안내문 | 마지막 end 슬라이드 BGM (autoplay) |
 | `3.3-gemini-spring-walk.mp3` | Gemini Fast, "잔잔한 피아노 중심의 봄 산책 배경음악" 30초 | 3.3 Gemini 결과 (audio) |
 
 ### Gemini Lyria 생성 (.mp4 = 앨범커버 + 오디오)
 
 | 파일 | 생성 프롬프트 | 매핑 슬라이드 |
 |---|---|---|
-| `광속의_호기심.mp3 / .mp4` | "AI 활용을 공부하고 배우는 사람들을 위한 경쾌한 노래" | **cover BGM (autoplay loop, 우하단 컨트롤)** + 오프닝 직후 미리보기 슬라이드 (mp4) |
-| `우리의_새로운_청사진.mp3 / .mp4` | 영감·차분 (Gemini Lyria) | end 직전 보너스 비디오 슬라이드 |
-| `Nine_AM_Window_Seat.mp4` | "따뜻한 어쿠스틱 기타 인트로, 햇살 가득한 주말 아침" (Gemini) | 3.3 Gemini 결과 시연 (mp4) |
-| `Table_by_the_Window.mp4` | "카페 분위기의 로파이 힙합, 비 오는 날, 보컬 없음" (Gemini) | 3.3 Gemini 결과 시연 (mp4) |
+| `speed-of-light-curiosity.mp3 / .mp4` | "AI 활용을 공부하고 배우는 사람들을 위한 경쾌한 노래" | **cover BGM (autoplay loop, 우하단 컨트롤)** + 오프닝 직후 미리보기 슬라이드 (mp4) |
+| `our-new-blueprint.mp3 / .mp4` | 영감·차분 (Gemini Lyria) | end 직전 보너스 비디오 슬라이드 |
+| `nine-am-window-seat.mp4` | "따뜻한 어쿠스틱 기타 인트로, 햇살 가득한 주말 아침" (Gemini) | 3.3 Gemini 결과 시연 (mp4) |
+| `table-by-the-window.mp4` | "카페 분위기의 로파이 힙합, 비 오는 날, 보컬 없음" (Gemini) | 3.3 Gemini 결과 시연 (mp4) |
 
 ### cover BGM 동작 메모
 
 - `<audio autoplay loop controls>` 태그를 cover 슬라이드에 fixed-position으로 삽입.
 - 브라우저 자동재생 정책: 사용자 첫 키 입력(슬라이드 넘김) 후 재생됨. 청중 입장 시점에는 무음, 첫 발표 액션과 함께 BGM 시작.
 - 컨트롤은 우하단 작게 노출 → 강사가 필요 시 일시정지·볼륨 조절 가능.
-- end 슬라이드의 `오디오를 키워.mp3`도 autoplay — 마지막 멘트 동안 자동 재생.
+- end 슬라이드의 `turn-up-the-audio.mp3`도 autoplay — 마지막 멘트 동안 자동 재생.
 
 ### lecture.md vs slides.md 분리 원칙 (재확인)
 

@@ -39,7 +39,7 @@ class: text-center cover-image
 
 </div>
 
-<audio src="/audio/광속의_호기심.mp3" autoplay loop controls style="position: fixed; bottom: 28px; right: 18px; height: 28px; opacity: 0.55; z-index: 250;"></audio>
+<audio src="/audio/speed-of-light-curiosity.mp3" autoplay loop controls style="position: fixed; bottom: 28px; right: 18px; height: 28px; opacity: 0.55; z-index: 250;"></audio>
 
 <!--
 커버. 오늘의 주역은 "음악". 무료로 한 곡 끝까지 만든다는 약속.
@@ -62,7 +62,7 @@ class: text-center
 
 <div class="mt-8 flex justify-center">
 
-<video controls src="/audio/광속의_호기심.mp4" style="max-height: 60vh; border-radius: 8px; box-shadow: 0 4px 24px rgba(0,0,0,0.25);"></video>
+<video controls src="/audio/speed-of-light-curiosity.mp4" style="max-height: 60vh; border-radius: 8px; box-shadow: 0 4px 24px rgba(0,0,0,0.25);"></video>
 
 </div>
 
@@ -70,8 +70,6 @@ class: text-center
 오프닝 직후. "오늘 마지막에 여러분도 이런 곡을 한 곡 손에 쥐고 갑니다"라는 약속을 결과물로 먼저 보여줌.
 mp4는 앨범커버+오디오로 Gemini가 만든 형식.
 -->
-
----
 
 ---
 
@@ -360,18 +358,11 @@ flowchart LR
 
 # 기술 계보 — Suno와 Lyria 뒤의 연구
 
-```mermaid {scale: 0.6}
-flowchart LR
-  AL["AudioLM<br/>2022 Google"] --> ML["MusicLM<br/>2023 Google"]
-  ML --> LY["Lyria<br/>2024-2025 Google"]
-  ML --> SD["Stable Audio<br/>2023 Stability AI"]
-  ML --> MG["MusicGen<br/>2023 Meta"]
-  MG -.->|영향| SU["Suno<br/>2023~ 자체 아키"]
-  SD -.->|영향| SU
-  MG -.->|영향| UD["Udio<br/>2024~"]
-  LY --> LY3["Lyria 3<br/>2025 Gemini 통합"]
-  SU --> SU45["Suno V4.5<br/>2025 무료 모델"]
-```
+<div class="flex justify-center mt-2">
+
+<img src="/images/1.3-tech-lineage.png" alt="기술 계보 흐름도" style="max-height: 42vh; object-fit: contain;" />
+
+</div>
 
 <div class="mt-2 grid grid-cols-3 gap-4 text-xs">
 
@@ -565,7 +556,7 @@ Create music (음악 만들기)
 
 **☕ 카페 로파이**
 
-<video controls src="/audio/Table_by_the_Window.mp4" style="width: 100%; max-height: 140px;"></video>
+<video controls src="/audio/table-by-the-window.mp4" style="width: 100%; max-height: 140px;"></video>
 
 <div class="mt-1 opacity-70">
 
@@ -579,7 +570,7 @@ Create music (음악 만들기)
 
 **🌅 어쿠스틱 모닝**
 
-<video controls src="/audio/Nine_AM_Window_Seat.mp4" style="width: 100%; max-height: 140px;"></video>
+<video controls src="/audio/nine-am-window-seat.mp4" style="width: 100%; max-height: 140px;"></video>
 
 <div class="mt-1 opacity-70">
 
@@ -1029,7 +1020,7 @@ Before/After 이미지는 Library 화면에서 원본 곡과 Remix 결과 두 �
 
 **원본 — 젖은 오후**
 
-<audio controls src="/audio/젖은 오후.mp3" style="width: 100%;"></audio>
+<audio controls src="/audio/wet-afternoon.mp3" style="width: 100%;"></audio>
 
 <div class="mt-1 text-xs">
 
@@ -1044,7 +1035,7 @@ Before/After 이미지는 Library 화면에서 원본 곡과 Remix 결과 두 �
 
 **Cover/Mashup — 젖은 오후 × Apricot Hammer**
 
-<audio controls src="/audio/젖은 오후 x Apricot Hammer (Mashup).mp3" style="width: 100%;"></audio>
+<audio controls src="/audio/wet-afternoon-x-apricot-hammer-mashup.mp3" style="width: 100%;"></audio>
 
 <div class="mt-1 text-xs">
 
@@ -1163,7 +1154,7 @@ background music
 
 🎵 **샘플 — Apricot Hammer**
 
-<audio controls src="/audio/Apricot Hammer.mp3" style="width: 100%;"></audio>
+<audio controls src="/audio/apricot-hammer.mp3" style="width: 100%;"></audio>
 
 <div class="mt-2 text-xs opacity-70">
 
@@ -1247,7 +1238,7 @@ spring walk, warm, calm vocal, slow-tempo
 
 🎵 **샘플 — 봄빛처럼 번져**
 
-<audio controls src="/audio/봄빛처럼 번져.mp3" style="width: 100%;"></audio>
+<audio controls src="/audio/spring-light-spreads.mp3" style="width: 100%;"></audio>
 
 <div class="mt-2 text-xs opacity-70">
 
@@ -1374,7 +1365,7 @@ minimal drums
 
 🎵 **샘플 — 토요일의 고요함**
 
-<audio controls src="/audio/토요일의_고요함.mp3" style="width: 100%;"></audio>
+<audio controls src="/audio/saturday-stillness.mp3" style="width: 100%;"></audio>
 
 <div class="mt-2 text-xs opacity-70">
 
@@ -1401,7 +1392,7 @@ Suno V4.5 · warm acoustic, weekend morning
 
 **원본 — 토요일의 고요함**
 
-<audio controls src="/audio/토요일의_고요함.mp3" style="width: 100%;"></audio>
+<audio controls src="/audio/saturday-stillness.mp3" style="width: 100%;"></audio>
 
 <div class="mt-2 text-xs">
 
@@ -1415,7 +1406,7 @@ Suno V4.5 · warm acoustic, weekend morning
 
 **같은 보컬, 다른 곡 — 도시의 심장**
 
-<audio controls src="/audio/도시의_심장.mp3" style="width: 100%;"></audio>
+<audio controls src="/audio/city-heart.mp3" style="width: 100%;"></audio>
 
 <div class="mt-2 text-xs">
 
@@ -1448,7 +1439,7 @@ Persona의 효과를 두 곡 비교로 직접 체감. "보컬 한 명을 나만�
 
 **👶 어린이 자장가 (Kids pop lullaby)**
 
-<audio controls src="/audio/토닥토닥 기다림.mp3" style="width: 100%;"></audio>
+<audio controls src="/audio/patpat-waiting.mp3" style="width: 100%;"></audio>
 
 <div class="mt-1 text-xs opacity-70">
 
@@ -1463,7 +1454,7 @@ hand claps, childlike vocal
 
 **🌫️ 명상적 드림 팝 (Ambient dream pop)**
 
-<audio controls src="/audio/젖은 오후.mp3" style="width: 100%;"></audio>
+<audio controls src="/audio/wet-afternoon.mp3" style="width: 100%;"></audio>
 
 <div class="mt-1 text-xs opacity-70">
 
@@ -1715,7 +1706,7 @@ layout: statement
 
 <div class="mt-6 flex justify-center">
 
-<video controls src="/audio/우리의_새로운_청사진.mp4" style="max-height: 55vh; border-radius: 8px; box-shadow: 0 4px 24px rgba(0,0,0,0.25);"></video>
+<video controls src="/audio/our-new-blueprint.mp4" style="max-height: 55vh; border-radius: 8px; box-shadow: 0 4px 24px rgba(0,0,0,0.25);"></video>
 
 </div>
 
@@ -1737,7 +1728,7 @@ layout: end
 
 오늘 만든 곡 한 줄로 — **"오디오를 키워"**
 
-<audio controls src="/audio/오디오를 키워.mp3" autoplay style="margin-top: 1.5em; opacity: 0.85;"></audio>
+<audio controls src="/audio/turn-up-the-audio.mp3" style="margin-top: 1.5em; opacity: 0.85;"></audio>
 
 <div class="mt-6 text-sm opacity-70">
 
@@ -1747,7 +1738,8 @@ layout: end
 
 <!--
 "오디오를 키워" — Suno로 만든 메타적 곡, AI 음악 생성을 공부하는 사람들 이야기.
-엔딩 BGM으로 자동재생. 강사가 마무리 멘트하는 동안 흐른다.
+강사가 직접 재생 버튼을 눌러 시작 (자동재생 X — cover BGM과 겹치지 않도록).
+한 audio 재생 시 다른 audio는 자동 정지 (global-bottom.vue 동기화).
 -->
 
 ---

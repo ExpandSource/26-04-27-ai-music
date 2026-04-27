@@ -347,8 +347,8 @@ Gemini 앱 또는 웹(gemini.google.com) → 입력창 옆 **Tools**(도구) →
 
 > 🎵 샘플 오디오 — Gemini Fast로 만든 "잔잔한 피아노 중심의 봄 산책 배경음악" 30초.
 > `public/audio/3.3-gemini-spring-walk.mp3`.
-> 슬라이드에서는 mp4 결과물(앨범 커버 + 오디오)도 함께 시연: `Nine_AM_Window_Seat.mp4`(어쿠스틱 모닝),
-> `Table_by_the_Window.mp4`(카페 로파이) — 모두 Gemini Lyria가 한 줄 프롬프트로 생성.
+> 슬라이드에서는 mp4 결과물(앨범 커버 + 오디오)도 함께 시연: `nine-am-window-seat.mp4`(어쿠스틱 모닝),
+> `table-by-the-window.mp4`(카페 로파이) — 모두 Gemini Lyria가 한 줄 프롬프트로 생성.
 
 ### 3.4 Gemini의 한계 — 그래서 Suno로
 
@@ -623,7 +623,7 @@ Tempo: 80 BPM
 용도: 공부·집중·유튜브 배경·카페 BGM.
 
 > 🎵 샘플 — Suno V4.5로 만든 warm piano instrumental, "Apricot Hammer".
-> `public/audio/Apricot Hammer.mp3`.
+> `public/audio/apricot-hammer.mp3`.
 > 슬라이드에서는 `<audio>` 태그로 embed.
 
 #### (2) 한국어 발라드 — 가족·추억
@@ -644,7 +644,7 @@ tender, nostalgic
 용도: 가족 행사, 어버이날, 기념 영상.
 
 > 🎵 샘플 — Suno V4.5로 만든 한국어 K-Pop 발라드 "봄빛처럼 번져".
-> `public/audio/봄빛처럼 번져.mp3`. 슬라이드에서는 `<audio>` 태그로 embed.
+> `public/audio/spring-light-spreads.mp3`. 슬라이드에서는 `<audio>` 태그로 embed.
 
 #### (3) 경쾌한 팝 — 이벤트·유튜브 인트로
 
