@@ -1,0 +1,10 @@
+import{_ as r}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-C7ujOO67.js";import{o as p,b as u,w as n,g as s,d as m,m as d,D as e,v as c,x as g,z as l}from"./modules/vue-Ck944zzb.js";import{I as f}from"./slidev/default-BDDW-6BD.js";import{u as _,f as k}from"./slidev/context-CnsaxR85.js";import"./modules/unplugin-icons-mB7EbmYL.js";import"./index-CtUiUhBB.js";import"./modules/shiki-B6twE7zQ.js";const h={class:"text-sm mt-4"},$={__name:"slides.md__slidev_39",setup(v){const{$clicksContext:t,$frontmatter:o}=_();return t.setup(),(x,a)=>{const i=r;return p(),u(f,c(g(l(k)(l(o),38))),{default:n(()=>[a[1]||(a[1]=s("h1",null,"레시피 4 — 국악 퓨전",-1)),s("div",h,[m(i,d({},{title:"",ranges:[]}),{default:n(()=>[...a[0]||(a[0]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"Styles: Korean traditional fusion, gayageum, daegeum,")]),e(`
+`),s("span",{class:"line"},[s("span",null,"haegeum, soft modern beat, female vocal (Korean), cinematic")]),e(`
+`),s("span",{class:"line"},[s("span")]),e(`
+`),s("span",{class:"line"},[s("span",null,"[verse]")]),e(`
+`),s("span",{class:"line"},[s("span",null,"봄바람 자락에 실려 오는 소리")]),e(`
+`),s("span",{class:"line"},[s("span",null,"마음이 먼저 기울어지네")]),e(`
+`),s("span",{class:"line"},[s("span")]),e(`
+`),s("span",{class:"line"},[s("span",null,"[chorus]")]),e(`
+`),s("span",{class:"line"},[s("span",null,"오래된 길 위에 피어나는 오늘")]),e(`
+`),s("span",{class:"line"},[s("span",null,"우리의 시간이 여기 있네")])])],-1)])]),_:1},16)]),a[2]||(a[2]=s("div",{class:"mt-6 p-3 rounded bg-blue-50 text-sm"},[s("p",null,[s("strong",null,"용도"),e(": 문화 콘텐츠·공공기관 영상·한국 소개·관광 PR")]),s("p",null,[e("특정 악기명을 영어로 명시 — "),s("code",null,"gayageum"),e(", "),s("code",null,"daegeum"),e(", "),s("code",null,"haegeum"),e(", "),s("code",null,"geomungo"),e(" 등이 인식된다")])],-1))]),_:1},16)}}};export{$ as default};
