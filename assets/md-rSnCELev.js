@@ -1,0 +1,10 @@
+import{_ as r}from"./slidev/CodeBlockWrapper.vue_vue_type_script_setup_true_lang-Chqdwab4.js";import{o as p,b as d,w as a,g as s,d as u,m as c,D as l,v as m,x as f,z as e}from"./modules/vue-CzuFdaBA.js";import{I as g}from"./slidev/default-C5EFqh67.js";import{u as k,f as v}from"./slidev/context-kLjshsop.js";import"./modules/unplugin-icons-CdkgQ_GB.js";import"./index-DD8_v0KB.js";import"./modules/shiki-DFAA20xP.js";const _={grid:"~ cols-2 gap-8",class:"mt-4 text-sm"},K={__name:"slides.md__slidev_38",setup(x){const{$clicksContext:t,$frontmatter:o}=k();return t.setup(),(h,n)=>{const i=r;return p(),d(g,m(f(e(v)(e(o),37))),{default:a(()=>[n[3]||(n[3]=s("h1",null,"레시피 2 — 한국어 K-Pop 발라드",-1)),s("div",_,[s("div",null,[u(i,c({},{title:"",ranges:[]}),{default:a(()=>[...n[0]||(n[0]=[s("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[s("code",{class:"language-text"},[s("span",{class:"line"},[s("span",null,"Styles: Korean K-Pop, acoustic, gentle and bright,")]),l(`
+`),s("span",{class:"line"},[s("span",null,"spring walk, warm, calm vocal, slow-tempo")]),l(`
+`),s("span",{class:"line"},[s("span")]),l(`
+`),s("span",{class:"line"},[s("span",null,"[verse]")]),l(`
+`),s("span",{class:"line"},[s("span",null,"오늘도 천천히 걸어가네")]),l(`
+`),s("span",{class:"line"},[s("span",null,"따뜻한 바람이 불어오네")]),l(`
+`),s("span",{class:"line"},[s("span")]),l(`
+`),s("span",{class:"line"},[s("span",null,"[chorus]")]),l(`
+`),s("span",{class:"line"},[s("span",null,"봄빛처럼 번져가네")]),l(`
+`),s("span",{class:"line"},[s("span",null,"너의 웃음처럼 번져가네")])])],-1)])]),_:1},16),n[1]||(n[1]=s("p",null,[s("strong",null,"용도"),l(": 가족 행사·기념 영상·일상 콘텐츠")],-1))]),n[2]||(n[2]=s("div",{class:"p-4 rounded bg-slate-50 border border-slate-200"},[s("p",null,[l("🎵 "),s("strong",null,"샘플 — 봄빛처럼 번져")]),s("p",null,[s("audio",{controls:"",src:"/audio/봄빛처럼 번져.mp3",style:{width:"100%"}})]),s("div",{class:"mt-2 text-xs opacity-70"},[s("p",null,"Suno V4.5 · 한국어 보컬 · 따뜻한 톤")])],-1))])]),_:1},16)}}};export{K as default};
